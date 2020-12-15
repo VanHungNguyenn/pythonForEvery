@@ -16,11 +16,16 @@ input = '''
 '''
 
 stuff = ET.fromstring(input)
-lst = stuff.findall('users/user')
-print('User count: ', len(lst))
 
-for item in lst:
-    print('Name: ', item.find('name').text)
-    print('Id: ', item.find('id').text)
-    print('Attribute: ', item.get("x"))
+print(stuff)
+
+# lst = stuff.findall('users/user')
+# print('User count: ', len(lst))
+
+# for item in lst:
+#     print('Name: ', item.find('name').text)
+#     print('Id: ', item.find('id').text)
+#     print('Attribute: ', item.get("x"))
+
+
 

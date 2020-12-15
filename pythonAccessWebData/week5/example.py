@@ -13,3 +13,4 @@ data = '''
 tree = ET.fromstring(data)
 print('Name:', tree.find('name').text)
 print('Atrr:', tree.find('email').get('hide'))
+

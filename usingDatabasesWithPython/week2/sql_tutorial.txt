@@ -1,0 +1,16 @@
+INSERT INTO Users(name,email) VALUES('Name','Email')
+
+DELETE FROM Users WHERE email='ted@umich.edu'
+
+UPDATE Users SET name='Charles' WHERE email='csev@umich.edu'
+
+SELECT * FROM Users
+
+SELECT * FROM Users WHERE email='csev@umich.edu'
+
+SELECT * FROM Users ORDER BY email
+
+SELECT * FROM Users ORDER BY name
+
+SELECT COUNT(*) FROM Users  //Counts the rows in the table Users
+
